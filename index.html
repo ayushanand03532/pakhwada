@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+</head>
+<body>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="swiper.min.css">
+<link rel="stylesheet" type="text/css" href="style2.css">
+
+<script type="text/javascript" src="script.js"></script>
+
+<header>
+        <div class="menu-toggle" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="overlay"></div>
+        <div class="container">
+            <nav>
+                <h1 class="brand"><a href="../index.html">Ad<span>Mi</span>N</a></h1>
+            <ul>
+                    <li><a href="">Download Quick Book</a></li>
+                  
+                </ul>
+            </nav>
+        </div>
+      <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+          <div class="imgBx">
+              <img src="1.jpg">
+          </div>
+          <div class="details">
+              <h3>Quiz<br><span><a href="https://zosh-coder.github.io/sst/results/quiz/index.html">Prepare report card of quiz</a></span></h3>
+          </div>
+      </div>
+      <div class="swiper-slide">
+          <div class="imgBx">
+              <img src="2.png">
+          </div>
+          <div class="details">
+              <h3>Debate<br><span><a href="pg2/index2.html">Prepare report card of debate</a></span></h3>
+          </div>
+      </div>
+      <div class="swiper-slide">
+          <div class="imgBx">
+              <img src="3.jpg">
+          </div>
+          <div class="details">
+              <h3>Board Decoration<br><span><a href="https://forms.gle/GXiEpU1dMFFdZNGc7">Prepare reprt card</a></span></h3>
+          </div>
+      </div>
+    </div>
+
+        </header>
+        <script type="text/javascript" src="swiper.min.js"></script>
+        <script>
+         var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 60,
+        stretch: 0,
+        depth: 500,
+        modifier: 5,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });</script>
+</body>
+</html>
